@@ -270,15 +270,16 @@ section{
     overflow: hidden;
 }
 #cover a{
-    margin-left: 50%;
+    margin-left: 100%;
     display: block;
     transition: all 0.5s;
+    width: 100%;
 }
 #cover p{
     display: none;
     position: absolute;
     top: 35%;
-    left: 10%;
+    left: 18%;
     font-size: 80px;
     font-family: 'Cafe24NyangiWhite';
     color: #0a1762;
@@ -483,7 +484,7 @@ section{
     left: 20%;
     z-index: 20;
     margin-left: 15%;
-    width: 1000px;
+    width: 100%;
     overflow-x: hidden;
     background-color: #ffffff;
 }

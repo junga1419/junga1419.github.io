@@ -354,21 +354,31 @@ main h2{
     
 }
 .collection ul{
-    margin-left: 30px;
-    margin-top: 20px;
+    left: 30px;
+    top: 140px;
+    position: absolute;
 }
-.collection li>a>p{
-    margin-top: 10px;
-    width: 400px;
-    text-align: center;
+.collection div{
+    width: 100%;
+    position: absolute;
+    top: 350px;
+    height: 50px;
+}
+.collection div>p{
+    float: left;
+    width: 35%;
+    text-align: left;
     font-size: 14px;
+    overflow: hidden;
 }
-.collection h5{
+
+.collection h5{/*더보기*/
     position: absolute;
     top: 50px;
     right: 20px;
     font-size: 30px;
     color: #777777;
+    
 }
 .collection h5>span{
     font-size: 12px;
@@ -383,15 +393,16 @@ main h2{
 
 
 
-
 #con3{
-     border-top: 1px solid  rgb(82, 82, 82);
-     width: 100%;
+    border-top: 1px solid  rgb(82, 82, 82);
+    width: 100%;
     height: 400px;
 }
 
 #con3 ul{
-    width: 1440px;
+    float: left;
+    width: 90%;
+    margin-left: 3%;
 }
 #con3 ul>li{
     border-bottom: 1px silver dotted;
@@ -403,7 +414,7 @@ main h2{
     font-weight: bold;
 }
 #con3 a{
-    width: 1400px;
+    width: 100%;
 }
 
 #con3 span{
@@ -466,7 +477,7 @@ footer{
 }
 .f1{
     float: left;
-    width: 590px;
+    width: 30%;
     height: 200px;
 }
 .f1 p{
@@ -476,7 +487,7 @@ footer{
 }
 .f2{
     float: left;
-    width: 650px;
+    width: 40%;
     height: 200px;
 }
 .f2 h4,p{
@@ -490,7 +501,7 @@ footer{
 }
 .f3{
     float: left;
-    width: 650px;
+    width: 30%;
     height: 200px;
 }
 .f3 p{
